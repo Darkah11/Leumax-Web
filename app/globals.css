@@ -12,22 +12,22 @@ body {
 @layer utilities {
 
   .btn-orange { 
-    @apply  bg-orange-10 text-lg font-medium px-8 py-3 text-white-10 transition-all hover:opacity-90 border-orange-10
+    @apply  bg-orange-10 text-base lg:text-lg lg:px-8 lg:py-3 font-medium px-5 py-2 text-white-10 transition-all hover:opacity-90 border-orange-10
   }
   .btn-orange-outline  { 
-    @apply border-orange-10 text-orange-10 text-lg font-medium  bg-transparent px-8 py-3 transition-all hover:border-2
+    @apply border-orange-10 text-base lg:text-lg lg:px-8 lg:py-3 text-orange-10 font-medium  bg-transparent px-5 py-2 transition-all hover:border-2
   }
   .flex-between {
     @apply flex items-center justify-between;
   }
   .contact-form::before {
     content: "";
-    @apply w-[1px] h-full absolute left-0 right-0 m-auto bg-lightGray-10
+    @apply w-[1px] h-full absolute left-0 right-0 m-auto bg-lightGray-10 hidden md:block
   
   }
   .contact-form::after {
     content: "";
-    @apply w-full h-[1px] absolute left-0 bg-lightGray-10 -bottom-16
+    @apply w-full h-[1px] absolute left-0 bg-lightGray-10 -bottom-16 hidden md:block
   
   }
   .web-dev-list {
@@ -60,4 +60,27 @@ body {
 .faq.open .faq-answer {
   max-height: 1000px;
   opacity: 1;
+}
+
+
+
+.mobile-menu-button {
+  @apply flex items-center justify-center w-8 h-8 bg-gray-200 hover:bg-gray-300 rounded-full;
+}
+
+.mobile-menu-button svg {
+  @apply w-6 h-6 stroke-current;
+}
+
+/* Mobile menu functionality */
+.mobile-menu-button:checked ~ .mobile-menu {
+  @apply block;
+}
+
+.mobile-menu {
+  @apply hidden p-4 pt-0 bg-gray-100 rounded-md shadow-md;
+}
+
+.mobile-menu a {
+  @apply block p-4 text-sm text-gray-600 hover:text-gray-900;
 }

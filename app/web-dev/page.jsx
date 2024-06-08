@@ -5,15 +5,15 @@ import Button from '@/components/Button'
 
 export default function WebDev() {
   return (
-    <main className=" relative text-lg">
+    <main className=" text-base lg:text-lg xl:text-xl relative">
       <section className=" relative">
         <Image
           src={services}
           alt="web development page background image"
           className=" w-full h-screen object-cover relative"
         />
-        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" text-5xl">Web Development</h2>
+        <div className=" text-white-10 px-5 lg:px-16 absolute left-0 right-0 m-auto top-0 bottom-0 flex flex-col items-center justify-center max-w-[600px] text-center">
+          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-4xl">Web Development</h2>
           <p className=" capitalize mt-5">
             For more information about our courses, get in touch with Leumax
             Technology contacts
@@ -22,10 +22,10 @@ export default function WebDev() {
       </section>
 
 
-      <section className=" px-16 py-24 ">
+      <section className="px-5 lg:px-16 py-24">
         <div className=' max-w-[850px] m-auto'>
           <div>
-            <h2 className=' text-3xl font-medium border-b pb-2 border-b-lightGray-10'>Web development</h2>
+            <h2 className=' text-2xl md:text-3xl font-medium border-b pb-2 border-b-lightGray-10'>Web development</h2>
             <p className=' pt-10'>
               Embark on a transformative journey into the digital realm with
               Leumax Technology's Web Development course. Explore the
@@ -40,9 +40,9 @@ export default function WebDev() {
 
 
           <div className=' pt-16'>
-            <h3 className=' text-3xl font-medium border-b pb-2 border-b-lightGray-10'>Web Development for Beginners Course Outline</h3>
-            <div className=" flex flex-start gap-3 pt-10">
-              <ul className=' w-1/2'>
+            <h3 className=' text-2xl md:text-3xl font-medium border-b pb-2 border-b-lightGray-10'>Web Development for Beginners Course Outline</h3>
+            <div className=" flex flex-col md:flex-row flex-start md:gap-3 pt-10">
+              <ul className= ' w-full md:w-1/2'>
                 <li className="web-dev-list">
                   <svg
                     width="20"
@@ -120,7 +120,7 @@ export default function WebDev() {
                 </li>
               </ul>
 
-              <ul className=' w-1/2'>
+              <ul className=' w-full md:w-1/2'>
                 <li className="web-dev-list">
                   <svg
                     width="20"

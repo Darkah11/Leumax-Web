@@ -15,15 +15,15 @@ import right from '@/public/arrow-right.svg'
 
 export default function AboutUs() {
   return (
-    <main className=" relative text-lg">
+    <main className=" text-base lg:text-lg xl:text-xl relative">
       <section className=" relative">
         <Image
           src={aboutImg}
           alt="about page background image"
           className=" w-full h-screen object-cover relative"
         />
-        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" text-5xl">About Leumax Tech</h2>
+        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0  px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
+          <h2 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-4xl">About Leumax Tech</h2>
           <p className=" capitalize mt-5">
             Leumax Technology is a dedicated team passionate about bridging the
             gap between technology and education, empowering individuals and
@@ -34,11 +34,11 @@ export default function AboutUs() {
 
       {/* leumax technology  */}
 
-      <section className=" px-16 py-24">
-        <div className=" flex justify-between ">
-          <p className=" text-base text-orange-10">Why Leumax Technology</p>
-          <div className="w-[70%]">
-            <p className=" text-2xl capitalize">
+      <section className="  px-5 lg:px-16 py-24">
+        <div className=" flex flex-col md:flex-row md:justify-between ">
+          <p className=" text-sm md:text-base text-orange-10">Why Leumax Technology</p>
+          <div className=" md:w-[70%] pt-5 md:pt-0">
+            <p className=" text-lg md:text-xl lg:text-2xl capitalize">
               <span className=' text-darkgray-10'>At Leumax Technology</span>, we thrive on a shared commitment to
               excellence, creativity, and continuous learning. 
               <br />
@@ -55,14 +55,14 @@ export default function AboutUs() {
 
       {/* amazing team */}
 
-      <section className=" px-16 py-24">
+      <section className=" px-5 lg:px-16 py-24">
         <div className=' max-w-[500px] m-auto text-center '>
-            <h2 className=' text-5xl font-medium pb-4'>The Amazing Team</h2>
+            <h2 className=' lg:text-5xl md:text-4xl text-2xl font-medium leading-snug'>The Amazing Team</h2>
             <p>We are a group of builders and operators with extensive 
 firsthand expertise in this field.</p>
         </div>
-        <div className=' flex justify-between items center flex-wrap gap-y-10 mt-12'>
-            <div className=' relative max-w-[400px]'>
+        <div className=' flex justify-center lg:justify-between md:gap-x-5 lg:gap-x-0 items center flex-wrap gap-y-10 mt-12'>
+            <div className=' relative max-w-[380px]'>
             <Image src={team1} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -76,7 +76,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[400px]'>
+            <div className=' relative max-w-[380px]'>
             <Image src={team2} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -90,7 +90,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[400px]'>
+            <div className=' relative max-w-[380px]'>
             <Image src={team3} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -104,7 +104,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[400px]'>
+            <div className=' relative max-w-[380px]'>
             <Image src={team4} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -118,7 +118,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[400px]'>
+            <div className=' relative max-w-[380px]'>
             <Image src={team5} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -132,7 +132,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[400px]'>
+            <div className=' relative max-w-[380px]'>
             <Image src={team6} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -151,13 +151,13 @@ firsthand expertise in this field.</p>
 
       {/* testimonials */}
 
-      <section className=' px-16 py-24'>
-        <div className=' max-w-[70%] px-16 py-24'>
+      <section className=' px-5 lg:px-16 py-24'>
+        <div className=' md:w-[70%]'>
             <p className="border border-orange-10 inline px-2 py-1 rounded-full ">Testimonials</p>
-            <h2 className=' text-5xl font-medium capitalize pt-8'>Amplifying the contentment expressed by our client</h2>
+            <h2 className=' lg:text-5xl md:text-4xl text-2xl font-medium leading-snug capitalize pt-8'>Amplifying the contentment expressed by our client</h2>
         </div>
-        <div className=' w-[70%] pr-5 ml-auto'>
-          <div className=' flex flex-col gap-10 items-start border-l border-l-orange-10 px-8 max-w-[800px]'>
+        <div className=' pt-20 md:w-[70%] md:pr-5 md:ml-auto'>
+          <div className=' flex flex-col gap-10 items-start border-l border-l-orange-10 px-8 lg:px-16 max-w-[800px]'>
             <p>We have years of experience and hands-on you can bank on. We develop Solutions and Tools to ease your business processes via the web. We also train and support our </p>
             <div className=' flex items-center gap-8'>
               <Image src={avatar} alt='avatar image' width={60} height={60}/>

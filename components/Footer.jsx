@@ -7,9 +7,9 @@ import logo from '@/public/logo.png'
 
 export default function Footer() {
   return (
-    <footer className=" bg-black-10 text-white-10 px-16">
-      <div className=" flex flex-col justify-center items-center  py-24">
-        <h2 className=" text-center text-5xl mb-10 leading-snug">
+    <footer className=" bg-black-10 text-white-10 px-5 lg:px-16">
+      <div className=" flex flex-col justify-center items-center py-24">
+        <h2 className=" text-center lg:text-5xl md:text-4xl font-medium lg:pt-20 leading-normal text-3xl mb-10">
           Have A Project In Mind?
           <br />
           Let’s Work Together
@@ -21,7 +21,7 @@ export default function Footer() {
         />
       </div>
 
-      <div className=' border-y py-10 flex items-start gap-20'>
+      <div className=' border-y py-10 flex items-start flex-wrap gap-20'>
 
         <div className=' max-w-sm'>
           <Link href={'/'}>
@@ -33,6 +33,7 @@ export default function Footer() {
           </p>
         </div>
 
+        <div className=' flex gap-20 items-center flex-wrap'>
         <ul className=' flex items-left gap-4 flex-col text-gray-10'>
             <p className=' mb-5 text-white-10 font-medium'>Company</p>
             <Link href={"/"}>Home</Link>
@@ -47,6 +48,8 @@ export default function Footer() {
             <Link href={"/"}>Tech4jobs</Link>
             <Link href={"/"}>Corps2tech</Link>
         </ul>
+        </div>
+        <div className=' flex gap-20 items-center flex-wrap'>
         <ul className=' flex items-left gap-4 flex-col text-gray-10'>
             <p className=' mb-5 text-white-10 font-medium'>Support</p>
             <Link href={"/"}>FAQs</Link>
@@ -61,6 +64,9 @@ export default function Footer() {
             <Link href={"/"}>Instagram</Link>
             <Link href={"/"}>Facebook</Link>
         </ul>
+        </div>
+
+        
       </div>
       <p className=' text-center py-10'>Copyright © 2023 Leumax Technology. All Rights Reserved by Leumax Technology</p>
     </footer>

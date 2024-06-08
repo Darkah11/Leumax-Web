@@ -42,26 +42,26 @@ export default function Home() {
   ])
   const itemClasses = {
     base: "pt-4",
-    title: "text-xl",
+    title: "text-xl mr-auto",
     indicator: "ml-auto",
     content: "pb-8"
   };
 
   return (
-    <main className=" text-lg">
+    <main className=" text-base lg:text-lg xl:text-xl">
       {/* Hero section */}
 
-      <section className=" pt-24 ">
-        <div className=" text-center max-w-[1200px] flex flex-col m-auto px-16 relative">
-          <p className="border border-orange-10 absolute top-0 flex justify-center self-center px-2 rounded-full">We Build To Last</p>
-          <h1 className=" text-6xl font-medium pt-20 leading-normal">
+      <section className=" pt-10 ">
+        <div className=" md:text-center md:max-w-[800px] lg:max-w-[1200px] px-5 flex flex-col md:m-auto lg:px-16 relative">
+          <p className="border border-orange-10 absolute top-0 justify-start  flex md:justify-center md:self-center px-2 rounded-full">We Build To Last</p>
+          <h1 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-4xl">
             Providing Tech Skills For Creatives & IT support for Business
           </h1>
           <p className="max-w-2xl m-auto pt-5">
             We have years of experience and hands-on you can bank on. We develop
             Solutions and Tools to ease your business
           </p>
-          <div className=" pt-10 flex items-center gap-5 justify-center">
+          <div className=" pt-10 flex items-center justify-start gap-5 md:justify-center">
             <Button
               title={'For Creatives'}
               type={'button'}
@@ -81,36 +81,36 @@ export default function Home() {
 
       {/* about section */}
 
-      <section className=" px-16 py-24">
-        <div className=" flex justify-between ">
-          <p className=" text-base text-orange-10">How We Work</p>
-          <h2 className=" text-5xl font-medium w-[70%] leading-snug">
+      <section className=" px-5 lg:px-16 py-24">
+        <div className=" flex flex-col md:justify-between md:flex-row ">
+          <p className=" text-sm md:text-base text-orange-10">How We Work</p>
+          <h2 className=" lg:text-5xl md:text-4xl text-2xl font-medium md:w-[70%] leading-snug">
             Experience a streamlined process and achieve your IT goals with us.
           </h2>
         </div>
-        <div className=" flex justify-between mt-20">
-          <div className=" max-w-[420px]">
-            <span className=" text-4xl text-lightGray-10">01.</span>
-            <h3 className=" text-3xl font-medium mt-8">Fill out “Get Quote”</h3>
-            <p className=" text-base pt-2">
+        <div className=" flex justify-between flex-wrap mt-20 gap-y-10">
+          <div className=" w-[300px] md:w-[350px] lg:w-[400px]">
+            <span className=" text-2xl md:text-3xl lg:text-4xl text-lightGray-10">01.</span>
+            <h3 className=" text-xl md:text-2xl lg:text-3xl font-medium mt-8">Fill out “Get Quote”</h3>
+            <p className=" text-sm md:text-base pt-2">
               Get Quote' feature – a streamlined process to receive personalized
               quotes for our IT support
             </p>
           </div>
-          <div className=" max-w-[420px]">
-            <span className=" text-4xl text-lightGray-10">02.</span>
-            <h3 className=" text-3xl font-medium mt-8">
+          <div className=" w-[300px] md:w-[350px] lg:w-[400px]">
+            <span className="text-2xl md:text-3xl lg:text-4xl text-lightGray-10">02.</span>
+            <h3 className=" text-xl md:text-2xl lg:text-3xl font-medium mt-8">
               Get Free Consultation
             </h3>
-            <p className=" text-base pt-2">
+            <p className="  text-sm md:text-base pt-2">
               Elevate your goals with Leumax Technology's 'Get Free
               Consultation,' where innovation meets expertise.
             </p>
           </div>
-          <div className=" max-w-[420px]">
-            <span className=" text-4xl text-lightGray-10">03.</span>
-            <h3 className=" text-3xl font-medium mt-8">Start the project</h3>
-            <p className=" text-base pt-2">
+          <div className=" w-[300px] md:w-[350px] lg:w-[400px]">
+            <span className="text-2xl md:text-3xl lg:text-4xl text-lightGray-10">03.</span>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-medium mt-8">Start the project</h3>
+            <p className="  text-sm md:text-base pt-2">
               ensuring timely solutions and a seamless journey towards your
               technological goals."
             </p>
@@ -120,14 +120,14 @@ export default function Home() {
 
       {/* it solutions section  */}
 
-      <section className=" px-16 py-24 bg-black-10 text-white-10">
-        <h2 className=' text-6xl font-medium max-w-[1000px] capitalize leading-snug'>We provide <span className=' text-orange-10'>IT solutions</span>  tailored to your needs.</h2>
-        <div className=' flex justify-between items-start mt-20'>
-          <div className=' w-[40%]'>
-            <Image src={it} alt='it solutions image' className=' w-full'/>
+      <section className=" px-5 lg:px-16 py-24 bg-black-10 text-white-10">
+        <h2 className=' lg:text-5xl md:text-4xl text-2xl font-medium md:max-w-[600px] lg:max-w-[800px]  capitalize leading-snug'>We provide <span className=' text-orange-10'>IT solutions</span>  tailored to your needs.</h2>
+        <div className=' lg:flex lg:justify-between lg:items-center lg:gap-8 mt-20'>
+          <div className=' w-[40%] hidden lg:block '>
+            <Image src={it} alt='it solutions image' className=' w-full '/>
           </div>
 
-          <div className=' w-1/2'>
+          <div className=' w-full max-w-[700px] mx-auto'>
             <Faq data={data} style={itemClasses} link={"Get a quote"} icon={<Arrow />}/>
           </div>
         </div>
@@ -135,11 +135,11 @@ export default function Home() {
 
       {/* max academy section  */}
 
-      <section className=" px-16 py-24">
-        <div className=" flex justify-between ">
-          <p className=" text-base text-orange-10">Max Academy</p>
-          <div className="w-[70%]">
-            <h2 className=" text-5xl font-medium leading-snug">
+      <section className=" px-5 lg:px-16 py-24">
+        <div className=" flex flex-col md:justify-between md:flex-row ">
+          <p className=" text-sm md:text-base text-orange-10">Max Academy</p>
+          <div className="md:w-[70%]">
+            <h2 className=" lg:text-5xl md:text-4xl text-2xl font-medium leading-snug">
               Max Academy, an integral part of Leumax Technology
             </h2>
             <p className="py-5">
@@ -154,32 +154,32 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className=" flex justify-between items-center gap-5 mt-20">
+        <div className=" flex flex-col md:flex-row md:justify-between md:items-center gap-y-5 mt-20 w-full">
           <Image
             src={lady}
             alt="academy section image"
-            className=" h-[450px] object-cover"
+            className=" h-[450px] object-cover w-full md:w-[29%]"
           />
           <Image
             src={man}
             alt="academy section image "
-            className=" h-[450px] object-cover"
+            className=" h-[450px] object-cover w-full md:w-[69%]"
           />
         </div>
       </section>
 
       {/* Recently worked */}
 
-      <section className=" px-16 py-24">
-        <h2 className=" text-5xl font-medium max-w-2xl leading-snug">
+      <section className=" px-5 lg:px-16 py-24">
+        <h2 className=" lg:text-5xl md:text-4xl text-2xl  font-medium max-w-2xl leading-snug">
           Recently Worked On Project Our Work Speaks For Itself
         </h2>
-        <div className=" flex justify-between items-center mt-24">
-          <Image src={ux} alt="ux design" className=" w-[49%]" />
+        <div className=" flex flex-col gap-y-10 md:flex-row md:justify-between md:items-center mt-24">
+          <Image src={ux} alt="ux design" className=" w-full md:w-[49%] object-cover block" />
           <Image
             src={landing}
             alt="landing page mock up"
-            className=" w-[49%]"
+            className=" w-full md:w-[49%] object-cover block"
           />
         </div>
       </section>
