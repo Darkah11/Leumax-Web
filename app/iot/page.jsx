@@ -40,7 +40,7 @@ export default function IoT() {
           className=" w-full h-screen object-cover relative"
         />
         <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0  px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-4xl">Ai & Robotics</h2>
+          <h2 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-3xl">Ai & Robotics</h2>
           <p className=" capitalize mt-5">
           Robots, IoT and artificial intelligence are 
           leading digital transformation          </p>

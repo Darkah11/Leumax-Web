@@ -143,7 +143,7 @@ export default function Navbar() {
             </div>
           </li>
           <li className=" border-b border-gray-10 w-full text-center">
-            <Link className=" py-3 block" href={'/iot'}>
+            <Link className=" py-3 block" href={'/contact'}>
             <Button
                 type={'button'}
                 title={'Contact us'}

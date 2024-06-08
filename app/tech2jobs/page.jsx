@@ -23,7 +23,7 @@ export default function Tech2jobs() {
           className=" w-full h-screen object-cover relative"
         />
         <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 px-5 lg:px-16 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-4xl">Tech2Jobs</h2>
+          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-3xl">Tech2Jobs</h2>
           <p className=" capitalize mt-5">
             For more information about our courses, get in touchwith Leumax
             Technology contacts
@@ -54,8 +54,8 @@ export default function Tech2jobs() {
                 <Image src={uiux} alt='ui/ux image' className=' w-full'/>
                 <div className=' pt-4'>
                     <ul className=' list-disc relative'>
-                        <li className=' text-lg font-medium pb-2 ml-6 product-head'>Product design(UI/UX)</li>
-                        <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-lg'>3 months</span>
+                        <li className=' text-lg font-medium pb-2 ml-6 product-head max-w-[150px]'>Product design (UI/UX)</li>
+                        <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-base'>3 months</span>
                     </ul>
                     <p className=' text-base'>The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work.</p>
                     <div className=' flex justify-between items-center pt-4'>
@@ -71,7 +71,7 @@ export default function Tech2jobs() {
                 <Image src={web} alt='web development image' className=' w-full'/>
                 <div className=' pt-4'>
                     <ul className=' list-disc relative'>
-                        <li className=' text-lg font-medium pb-2 ml-6 product-head'>Web development</li>
+                        <li className=' text-lg font-medium pb-2 ml-6 product-head max-w-[150px]'>Web development</li>
                         <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-lg'>3 months</span>
                     </ul>
                     <p className=' text-base'>The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work.</p>
@@ -88,7 +88,7 @@ export default function Tech2jobs() {
                 <Image src={mobile} alt='mobile development image ' className=' w-full'/>
                 <div className=' pt-4'>
                     <ul className=' list-disc relative'>
-                        <li className=' text-lg font-medium pb-2 ml-6 product-head'>Mobile development</li>
+                        <li className=' text-lg font-medium pb-2 ml-6 product-head max-w-[150px]'>Mobile development</li>
                         <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-lg'>3 months</span>
                     </ul>
                     <p className=' text-base'>The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work.</p>
@@ -104,7 +104,7 @@ export default function Tech2jobs() {
                 <Image src={software} alt='software development image' className=' w-full'/>
                 <div className=' pt-4'>
                     <ul className=' list-disc relative'>
-                        <li className=' text-lg font-medium pb-2 ml-6 product-head'>Software development</li>
+                        <li className=' text-lg font-medium pb-2 ml-6 product-head max-w-[150px]'>Software development</li>
                         <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-lg'>3 months</span>
                     </ul>
                     <p className=' text-base'>The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work.</p>
@@ -121,7 +121,7 @@ export default function Tech2jobs() {
                 <Image src={digital} alt='digital marketing image' className=' w-full'/>
                 <div className=' pt-4'>
                     <ul className=' list-disc relative'>
-                        <li className=' text-lg font-medium pb-2 ml-6 product-head'>Digital marketing</li>
+                        <li className=' text-lg font-medium pb-2 ml-6 product-head max-w-[150px]'>Digital marketing</li>
                         <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-lg'>3 months</span>
                     </ul>
                     <p className=' text-base'>The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work.</p>
@@ -137,7 +137,7 @@ export default function Tech2jobs() {
                 <Image src={cyber} alt='cyber security image' className=' w-full'/>
                 <div className=' pt-4'>
                     <ul className=' list-disc relative'>
-                        <li className=' text-lg font-medium pb-2 ml-6 product-head'>Cyber security</li>
+                        <li className=' text-lg font-medium pb-2 ml-6 product-head max-w-[150px]'>Cyber security</li>
                         <span className=' absolute top-0 bottom-0 m-auto right-0 font-medium text-lg'>3 months</span>
                     </ul>
                     <p className=' text-base'>The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work.</p>

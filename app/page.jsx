@@ -54,7 +54,7 @@ export default function Home() {
       <section className=" pt-10 ">
         <div className=" md:text-center md:max-w-[800px] lg:max-w-[1200px] px-5 flex flex-col md:m-auto lg:px-16 relative">
           <p className="border border-orange-10 absolute top-0 justify-start  flex md:justify-center md:self-center px-2 rounded-full">We Build To Last</p>
-          <h1 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-4xl">
+          <h1 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-3xl">
             Providing Tech Skills For Creatives & IT support for Business
           </h1>
           <p className="max-w-2xl m-auto pt-5">

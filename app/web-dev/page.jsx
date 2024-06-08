@@ -13,7 +13,7 @@ export default function WebDev() {
           className=" w-full h-screen object-cover relative"
         />
         <div className=" text-white-10 px-5 lg:px-16 absolute left-0 right-0 m-auto top-0 bottom-0 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-4xl">Web Development</h2>
+          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-3xl">Web Development</h2>
           <p className=" capitalize mt-5">
             For more information about our courses, get in touch with Leumax
             Technology contacts

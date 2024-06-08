@@ -23,7 +23,7 @@ export default function AboutUs() {
           className=" w-full h-screen object-cover relative"
         />
         <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0  px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-4xl">About Leumax Tech</h2>
+          <h2 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-3xl">About Leumax Tech</h2>
           <p className=" capitalize mt-5">
             Leumax Technology is a dedicated team passionate about bridging the
             gap between technology and education, empowering individuals and
@@ -62,7 +62,7 @@ export default function AboutUs() {
 firsthand expertise in this field.</p>
         </div>
         <div className=' flex justify-center lg:justify-between md:gap-x-5 lg:gap-x-0 items center flex-wrap gap-y-10 mt-12'>
-            <div className=' relative max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[380px]'>
             <Image src={team1} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -76,7 +76,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[380px]'>
             <Image src={team2} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -90,7 +90,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[380px]'>
             <Image src={team3} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -104,7 +104,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[380px]'>
             <Image src={team4} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -118,7 +118,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[380px]'>
             <Image src={team5} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -132,7 +132,7 @@ firsthand expertise in this field.</p>
                 </div>
             </div>
             </div>
-            <div className=' relative max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[380px]'>
             <Image src={team6} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>

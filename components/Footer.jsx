@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className=" bg-black-10 text-white-10 px-5 lg:px-16">
       <div className=" flex flex-col justify-center items-center py-24">
-        <h2 className=" text-center lg:text-5xl md:text-4xl font-medium lg:pt-20 leading-normal text-3xl mb-10">
+        <h2 className=" text-center lg:text-5xl md:text-4xl font-medium lg:pt-20 leading-normal text-2xl mb-10">
           Have A Project In Mind?
           <br />
           Let’s Work Together
