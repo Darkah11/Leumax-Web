@@ -9,15 +9,15 @@ import map from '@/public/map.png'
 
 export default function ContactUs() {
   return (
-    <main className=" text-base lg:text-lg xl:text-xl relative">
+    <main className=" text-base xl:text-lg relative">
       <section className=" relative">
         <Image
           src={contactImg}
           alt="contact page background image"
-          className=" w-full h-screen object-cover relative"
+          className=" w-full h-96 object-cover relative"
         />
         <div className=" text-white-10 px-5 lg:px-16 absolute left-0 right-0 m-auto top-0 bottom-0 flex flex-col items-center justify-center max-w-[500px] text-center">
-          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-3xl">Contact Us</h2>
+          <h2 className=" lg:text-5xl md:text-4xl font-medium leading-normal text-3xl">Contact Us</h2>
           <p className=" mt-5">
             For more information about our courses, get in touchwith Leumax
             Technology contacts

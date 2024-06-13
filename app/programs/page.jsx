@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import maxAcademy from '@/public/max-academy.png'
+import programs from '@/public/max-academy.png'
 import tech2jobs from '@/public/tech2jobs.png'
 import tech2kids from '@/public/tech2kids.png'
 import corps2tech from '@/public/corps2tech.png'
@@ -13,17 +13,17 @@ import linkedin from '@/public/linkedin.svg'
 import Button from '@/components/Button'
 import Link from 'next/link'
 
-export default function MaxAcademy() {
+export default function Programs() {
   return (
-    <main className=" text-base lg:text-lg xl:text-xl relative">
+    <main className=" text-base xl:text-lg relative">
         <section className=" relative">
         <Image
-          src={maxAcademy}
-          alt="max academy page background image"
-          className=" w-full h-screen object-cover relative"
+          src={programs}
+          alt="contact page background image"
+          className=" w-full h-96 object-cover relative"
         />
         <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
-          <h2 className=" lg:text-6xl md:text-5xl font-medium lg:pt-20 leading-normal text-3xl">Max Academy</h2>
+          <h2 className=" lg:text-6xl md:text-5xl font-medium leading-normal text-3xl">Our Programs</h2>
           <p className=" capitalize mt-5">
           For more information about our courses, get in touchwith Leumax Technology contacts
           </p>
@@ -32,8 +32,8 @@ export default function MaxAcademy() {
 
       <section className=" px-5 lg:px-16 py-24 ">
         <div className=' flex flex-col md:flex-row md:items-center md:justify-between'>
-            <h2 className='  lg:text-5xl md:text-4xl text-2xl font-medium leading-snug'>Explore our training programme</h2>
-            <p className=' max-w-[500px] pt-4'>We have years of experience and hands-on you can bank on. We develop Solutions and Tools to ease your business process via the web. </p>
+            <h2 className='  lg:text-5xl md:text-4xl text-2xl font-medium leading-snug w-[50%]'>Explore our training programme</h2>
+            <p className=' max-w-[500px] pt-4 md:max-w-[50%] lg:max-w-[450px]'>We have years of experience and hands-on you can bank on. We develop Solutions and Tools to ease your business process via the web. </p>
         </div>
 
 
@@ -91,7 +91,7 @@ export default function MaxAcademy() {
         </div>
         <div className=' flex justify-center lg:justify-between gap-x-5 lg:gap-x-0 items center flex-wrap gap-y-10 mt-12'>
 
-            <div className=' relative w-[500px] md:max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
             <Image src={team1} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -106,7 +106,7 @@ export default function MaxAcademy() {
             </div>
             </div>
 
-            <div className=' relative w-[500px] md:max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
             <Image src={team2} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
@@ -121,7 +121,7 @@ export default function MaxAcademy() {
             </div>
             </div>
 
-            <div className=' relative w-[500px] md:max-w-[380px]'>
+            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
             <Image src={team3} alt="our team member's image" className=' w-full'/>
             <div className=' absolute bottom-8 left-0 right-0 m-auto 
             w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>

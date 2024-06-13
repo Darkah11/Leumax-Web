@@ -48,18 +48,17 @@ export default function Home() {
   };
 
   return (
-    <main className=" text-base lg:text-lg xl:text-xl">
+    <main className=" text-base lg:text-lg">
       {/* Hero section */}
 
-      <section className=" pt-10 ">
+      <section className=" pt-10">
         <div className=" md:text-center md:max-w-[800px] lg:max-w-[1200px] px-5 flex flex-col md:m-auto lg:px-16 relative">
-          <p className="border border-orange-10 absolute top-0 justify-start  flex md:justify-center md:self-center px-2 rounded-full">We Build To Last</p>
-          <h1 className=" lg:text-6xl md:text-5xl font-medium pt-10 lg:pt-20 leading-normal text-3xl">
-            Providing Tech Skills For Creatives & IT support for Business
+          <p className="border text-sm border-orange-10 absolute top-0 justify-start  flex md:justify-center md:self-center px-2 rounded-full">We Build To Last</p>
+          <h1 className="lg:text-5xl md:text-5xl pt-10 text-3xl">
+          From ideation to value <span className=' block font-bold'>Let’s Build Together.</span>
           </h1>
-          <p className="max-w-2xl m-auto pt-5">
-            We have years of experience and hands-on you can bank on. We develop
-            Solutions and Tools to ease your business
+          <p className="max-w-2xl m-auto pt-5 hero-text">
+          We connect your ideas with digital reality, creating impactful solutions that accelerate business growth, nurture employee engagement, and enrich customer experiences.
           </p>
           <div className=" pt-10 flex items-center justify-start gap-5 md:justify-center">
             <Button
@@ -111,7 +110,7 @@ export default function Home() {
             <span className="text-2xl md:text-3xl lg:text-4xl text-lightGray-10">03.</span>
             <h3 className="text-xl md:text-2xl lg:text-3xl font-medium mt-8">Start the project</h3>
             <p className="  text-sm md:text-base pt-2">
-              ensuring timely solutions and a seamless journey towards your
+              Ensuring timely solutions and a seamless journey towards your
               technological goals."
             </p>
           </div>
@@ -140,7 +139,7 @@ export default function Home() {
           <p className=" text-sm md:text-base text-orange-10">Max Academy</p>
           <div className="md:w-[70%]">
             <h2 className=" lg:text-5xl md:text-4xl text-2xl font-medium leading-snug">
-              Max Academy, an integral part of Leumax Technology
+              Leumax Academy, an integral part of Leumax Technology
             </h2>
             <p className="py-5">
               is a dynamic learning hub committed to providing cutting-edge

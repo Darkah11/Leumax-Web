@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className=" flex-between px-5 lg:px-16 py-4 text-base md:text-base lg:text-lg relative">
+      <nav className=" flex-between px-5 h-[70px] lg:px-16 py-4 md:text-xs lg:text-base fixed z-50 bg-white-10 w-full shadow-lg">
         <Link href={'/'}>
           <Image
             src={logo}
@@ -41,36 +41,30 @@ export default function Navbar() {
             <Link href={'/'}>Home</Link>
           </li>
           <li>
+            <Link href={"/services"}>Services</Link>
+          </li>
+          <li>
+            <Link href={"/programs"}>Programs</Link>
+          </li>
+          <li>
             <Link href={'/about'}>About Us</Link>
           </li>
-          {/* <li><Link href={"/"}>Services</Link></li> */}
           <li>
             <Link href={'/iot'}>IoT</Link>
           </li>
           <li>
-            <div className=" relative group">
-              <Link href={'/max-academy'} className=" flex-between">
-                <p>Max Academy</p>
-                <Image src={arrow} alt="arrow down" width={24} height={24} />
-              </Link>
-              <div
-                className=" hidden flex-col items-start gap-y-2 absolute top-7 z-10 group-hover:flex 
-              bg-white-10 px-4 py-2 shadow-lg"
-              >
-                <Link href={'/tech2jobs'}>Tech2jobs</Link>
-                <Link href={'/'}>Tech2kids</Link>
-                <Link href={'/'}>Corps2tech</Link>
-                <Link href={'/'}>Tech2business</Link>
-              </div>
-            </div>
+            <Link href={'/products'}>Products</Link>
+          </li>
+          <li>
+              <Link href={'/academy'}>Academy</Link>
           </li>
         </ul>
 
-        <Link href={'/contact'} className=" hidden md:flex">
+        <Link href={'/contact'} className=" hidden md:flex text-xs">
           <Button
             type={'button'}
             title={'Contact us'}
-            variant={' btn-orange'}
+            variant={' btn-orange text-xs lg:text-base'}
           />
         </Link>
 
@@ -80,70 +74,43 @@ export default function Navbar() {
           } absolute top-[70px] bg-white-10 w-full left-0  flex-col items-center z-50 md:hidden`}
         >
           <li className=" border-b border-gray-10 w-full text-center">
-            <Link className=" py-3 block" href={'/'}>
+            <Link className=" py-3 block" href={'/'} onClick={() => handleOpen(!isOpen)}>
               Home
             </Link>
           </li>
           <li className=" border-b border-gray-10 w-full text-center">
-            <Link className=" py-3 block" href={'/about'}>
+            <Link className=" py-3 block" href={'/services'} onClick={() => handleOpen(!isOpen)}>
+              Services
+            </Link>
+          </li>
+          <li className=" border-b border-gray-10 w-full text-center">
+            <Link className=" py-3 block" href={'/programs'} onClick={() => handleOpen(!isOpen)}>
+              Programs
+            </Link>
+          </li>
+          <li className=" border-b border-gray-10 w-full text-center">
+            <Link className=" py-3 block" href={'/about'} onClick={() => handleOpen(!isOpen)}>
               About Us
             </Link>
           </li>
-          {/* <li><Link href={"/"}>Services</Link></li> */}
           <li className=" border-b border-gray-10 w-full text-center">
-            <Link className=" py-3 block" href={'/iot'}>
+            <Link className=" py-3 block" href={'/iot'} onClick={() => handleOpen(!isOpen)}>
               IoT
             </Link>
           </li>
-         
           <li className=" border-b border-gray-10 w-full text-center">
-            <div className=" relative group">
-              <Link
-                href={'/max-academy'}
-                className=" py-3 flex justify-center items-center text-cent"
-              >
-                <p>Max Academy</p>
-                <Image
-                  src={arrow}
-                  alt="arrow down"
-                  width={24}
-                  height={24}
-                  className=" inline"
-                />
-              </Link>
-              <div
-                className=" hidden flex-col items-center relative top-1 z-10 group-hover:flex 
-              bg-white-10"
-              >
-                <Link
-                  className=" py-3 block w-full border-b border-gray-10"
-                  href={'/tech2jobs'}
-                >
-                  Tech2jobs
-                </Link>
-                <Link
-                  className=" py-3 block w-full border-b border-gray-10"
-                  href={'/'}
-                >
-                  Tech2kids
-                </Link>
-                <Link
-                  className=" py-3 block w-full border-b border-gray-10"
-                  href={'/'}
-                >
-                  Corps2tech
-                </Link>
-                <Link
-                  className=" py-3 block w-full border-b border-gray-10"
-                  href={'/'}
-                >
-                  Tech2business
-                </Link>
-              </div>
-            </div>
+            <Link className=" py-3 block" href={'/products'} onClick={() => handleOpen(!isOpen)}>
+              Products
+            </Link>
           </li>
           <li className=" border-b border-gray-10 w-full text-center">
-            <Link className=" py-3 block" href={'/contact'}>
+            <Link className=" py-3 block" href={'/academy'} onClick={() => handleOpen(!isOpen)}>
+              Academy
+            </Link>
+          </li>
+          <li className=" border-b border-gray-10 w-full text-center">
+            <Link className=" py-3 block" href={'/contact'} 
+            onClick={() => handleOpen(!isOpen)}>
             <Button
                 type={'button'}
                 title={'Contact us'}
