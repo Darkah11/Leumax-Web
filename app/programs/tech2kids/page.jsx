@@ -15,6 +15,7 @@ import Button from '@/components/Button'
 import mark from '@/public/mark.png'
 import Link from 'next/link'
 import 'animate.css';
+import ProgramForm from '@/components/ProgramForm'
 
 export default function Tech2Kids() {
   return (
@@ -66,6 +67,7 @@ export default function Tech2Kids() {
                   </li>
             </ul>
         </div>
+        <ProgramForm courses={false} price={"N100,000.00"} />
       </section>
 
       <section className=" px-5 lg:px-16 py-24">
@@ -79,9 +81,9 @@ export default function Tech2Kids() {
                     </svg>
                 </div>
             </Link>
-            <Link href={'/programs/tech2business'} className=' max-w-[400px] md:max-w-[31%] relative'>
+            <Link href={'/programs/tech4japa'} className=' max-w-[400px] md:max-w-[31%] relative'>
                 <Image src={business} alt='corps image' className=' w-full'/>
-                <div className=' flex items-center gap-2 absolute bottom-5 left-4 text-white-10'><p>Tech2Business</p>
+                <div className=' flex items-center gap-2 absolute bottom-5 left-4 text-white-10'><p>Tech4Japa</p>
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.3386 4.91971L2.86315 16.3952L0.977539 14.5096L12.453 3.0341H2.33863V0.367432H17.0053V15.0341H14.3386V4.91971Z" fill="white"/>
                     </svg>

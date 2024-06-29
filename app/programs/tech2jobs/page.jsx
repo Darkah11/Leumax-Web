@@ -19,11 +19,13 @@ import ProgramForm from '@/components/ProgramForm'
 export default function Tech2jobs() {
 
   const courses = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Redux",
+    "Front End Development",
+    "Back End Development",
+    "Data Analytics",
+    "Mobile Development",
+    "Digital Marketing",
+    "Cyber Security",
+    "Software Development",
 ];
 
   return (
@@ -45,7 +47,8 @@ export default function Tech2jobs() {
             Tech2Jobs
           </h2>
           <p className=" pt-10">
-          Tech2Jobs is a basic to advanced tech training to get the youth bridge the employability gap. This is a 4-month programme powered by Leumax Technology. The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work for international tech companies.
+          Tech2Jobs is a basic to advanced tech training to get the youth bridge the employability gap. This is a 4-month programme powered by Leumax Technology. <br /> <br />
+          The training targets people with a basic or no experience in a particular sector in the I.T industry, for student aspiring to work for international tech companies.
           </p>
         </div>
         <div className=' pt-10'>
@@ -103,7 +106,7 @@ export default function Tech2jobs() {
             </ul>
         </div>
         
-        <ProgramForm courses={courses}/>
+        <ProgramForm courses={courses} price={"N250,000.00"}/>
       </section>
 
       <ProgramForm courses={courses}/>
@@ -119,9 +122,9 @@ export default function Tech2jobs() {
                     </svg>
                 </div>
             </Link>
-            <Link href={'/programs/tech2business'} className=' max-w-[400px] md:max-w-[31%] relative'>
+            <Link href={'/programs/tech4japa'} className=' max-w-[400px] md:max-w-[31%] relative'>
                 <Image src={business} alt='corps image' className=' w-full'/>
-                <div className=' flex items-center gap-2 absolute bottom-5 left-4 text-white-10'><p>Tech2Business</p>
+                <div className=' flex items-center gap-2 absolute bottom-5 left-4 text-white-10'><p>Tech4Japa</p>
                     <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.3386 4.91971L2.86315 16.3952L0.977539 14.5096L12.453 3.0341H2.33863V0.367432H17.0053V15.0341H14.3386V4.91971Z" fill="white"/>
                     </svg>

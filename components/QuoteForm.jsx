@@ -27,16 +27,17 @@ export default function QuoteForm() {
                   id="email"
                   className=" w-full border border-gray-300 p-2 outline-none rounded-lg"
                 />
-                {/* <select>
-                <option>Please choose one option</option>
-                {options.map((option, index) => {
-                    return (
-                        <option key={index}>
-                            {option}
-                        </option>
-                    );
-                })}
-            </select> */}
+               <select name='Gender' className=" w-full border border-gray-300 p-2 outline-none rounded-lg te">
+                <option className=' text-gray-300'>Select Gender</option>
+                <option value="Male" >Male</option>
+                <option value="Female" >Female</option>
+            </select>
+                
+                <select name='Training mode' className=" w-full border border-gray-300 p-2 outline-none rounded-lg te">
+                <option className=' text-gray-300'>Training Mode</option>
+                <option value="Online">Online</option>
+                <option value="Offline" >Offline</option>
+            </select>
                 <textarea
                   name="message"
                   id="message"

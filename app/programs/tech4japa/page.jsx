@@ -14,8 +14,18 @@ import Button from '@/components/Button'
 import mark from '@/public/mark.png'
 import Link from 'next/link'
 import 'animate.css';
+import ProgramForm from '@/components/ProgramForm'
 
 export default function Tech2Business() {
+
+  const courses = [
+    "Software Engineering Certificate Program (SECP)",
+    "Product Design Certificate Program (PDCP)",
+    "Data Analytics Certificate Program (DACP)",
+    "Web Development Certificate Program (WACP)",
+    "Cyber Security Certificate Program (CSCP)",
+];
+
   return (
     <main className="text-base xl:text-lg relative">
       <section className=" relative hero-img">
@@ -78,6 +88,7 @@ export default function Tech2Business() {
                   </li>
             </ul>
         </div>
+        <ProgramForm courses={courses} price={"N250,000.00"}/>
       </section>
 
       <section className=" px-5 lg:px-16 py-24">
