@@ -12,17 +12,18 @@ import twitter from '@/public/twitter.svg'
 import linkedin from '@/public/linkedin.svg'
 import Button from '@/components/Button'
 import Link from 'next/link'
+import 'animate.css';
 
 export default function Programs() {
   return (
     <main className=" text-base xl:text-lg relative">
-        <section className=" relative">
+        <section className=" relative hero-img">
         <Image
           src={programs}
           alt="contact page background image"
           className=" w-full h-96 object-cover relative"
         />
-        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
+        <div className=" animate__animated animate__slideInLeft text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 px-5 z-30 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
           <h2 className=" lg:text-6xl md:text-5xl font-medium leading-normal text-3xl">Our Programs</h2>
           <p className=" capitalize mt-5">
           For more information about our courses, get in touchwith Leumax Technology contacts
@@ -30,7 +31,7 @@ export default function Programs() {
         </div>
       </section>
 
-      <section className=" px-5 lg:px-16 py-24 ">
+      <section className=" animate__animated animate__fadeIn px-5 lg:px-16 py-24 ">
         <div className=' flex flex-col md:flex-row md:items-center md:justify-between'>
             <h2 className='  lg:text-5xl md:text-4xl text-2xl font-medium leading-snug w-[50%]'>Explore our training programme</h2>
             <p className=' max-w-[500px] pt-4 md:max-w-[50%] lg:max-w-[450px]'>We have years of experience and hands-on you can bank on. We develop Solutions and Tools to ease your business process via the web. </p>
@@ -44,7 +45,7 @@ export default function Programs() {
             <div className=' max-w-[500px] mt-8 md:mt-0'>
               <h3 className=' text-3xl font-medium'>Tech2jobs</h3>
               <p className=' pt-4 pb-8'>IoT is the most used technology nowadays. Whether a kitchen appliance or security monitor, IoT allows you to connect objects to the networks through embedded devices. Now, communication between processes, people, and things is possible without any hindrance.</p>
-              <Link href={"/tech2jobs"}>
+              <Link href={"/programs/tech2jobs"}>
               <Button title={"Learn more"} variant={"btn-orange"} type={"button"} />
               </Link>
             </div>
@@ -55,7 +56,7 @@ export default function Programs() {
             <div className=' max-w-[500px] mt-8 md:mt-0'>
               <h3 className=' text-3xl font-medium'>Tech2kids</h3>
               <p className=' pt-4 pb-8'>IoT is the most used technology nowadays. Whether a kitchen appliance or security monitor, IoT allows you to connect objects to the networks through embedded devices. Now, communication between processes, people, and things is possible without any hindrance.</p>
-              <Link href={"/tech2jobs"}>
+              <Link href={"/programs/tech2kids"}>
               <Button title={"Learn more"} variant={"btn-orange"} type={"button"} />
               </Link>
             </div>
@@ -65,7 +66,7 @@ export default function Programs() {
             <div className=' max-w-[500px] mt-8 md:mt-0'>
               <h3 className=' text-3xl font-medium'>Corps2tech</h3>
               <p className=' pt-4 pb-8'>IoT is the most used technology nowadays. Whether a kitchen appliance or security monitor, IoT allows you to connect objects to the networks through embedded devices. Now, communication between processes, people, and things is possible without any hindrance.</p>
-              <Link href={"/tech2jobs"}>
+              <Link href={"/programs/corps2tech"}>
               <Button title={"Learn more"} variant={"btn-orange"} type={"button"} />
               </Link>
             </div>
@@ -75,7 +76,7 @@ export default function Programs() {
             <div className=' max-w-[500px] mt-8 md:mt-0'>
               <h3 className=' text-3xl font-medium'>Tech2business</h3>
               <p className=' pt-4 pb-8'>IoT is the most used technology nowadays. Whether a kitchen appliance or security monitor, IoT allows you to connect objects to the networks through embedded devices. Now, communication between processes, people, and things is possible without any hindrance.</p>
-              <Link href={"/tech2jobs"}>
+              <Link href={"/programs/tech2business"}>
               <Button title={"Learn more"} variant={"btn-orange"} type={"button"} />
               </Link>
             </div>

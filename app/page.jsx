@@ -6,8 +6,13 @@ import man from '@/public/man.png'
 import landing from '@/public/landing.png'
 import ux from '@/public/ux.png'
 import it from '@/public/it-solutions.png'
+import mobile from '@/public/mobile-bg.png'
+import tab from '@/public/tab-bg.png'
+import large from '@/public/large-bg.png'
+import desktop from '@/public/desktop-bg.png'
 import Faq from "@/components/Faq";
 import { Arrow } from '@/components/Arrow'
+import 'animate.css';
 
 export default function Home() {
   const data = ([
@@ -50,10 +55,31 @@ export default function Home() {
   return (
     <main className=" text-base lg:text-lg">
       {/* Hero section */}
-
-      <section className=" pt-10">
-        <div className=" md:text-center md:max-w-[800px] lg:max-w-[1200px] px-5 flex flex-col md:m-auto lg:px-16 relative">
-          <p className="border text-sm border-orange-10 absolute top-0 justify-start  flex md:justify-center md:self-center px-2 rounded-full">We Build To Last</p>
+      <section className=' animate__animated animate__fadeIn'>
+        <div className=' relative'>
+        <Image
+          src={desktop}
+          alt="contact page background image"
+          className=" w-full h-[400px] relative object-cover xl:block hidden"
+        />
+        <Image
+          src={tab}
+          alt="contact page background image"
+          className=" w-full h-[400px] relative object-cover lg:hidden md:block hidden"
+        />
+        <Image
+          src={large}
+          alt="contact page background image"
+          className=" w-full h-[400px] relative object-cover xl:hidden lg:block hidden"
+        />
+        <Image
+          src={mobile}
+          alt="contact page background image"
+          className=" w-full h-[400px] relative object-cover xl:hidden md:hidden block"
+        />
+          <div className=" absolute left-0 right-0 m-auto top-0  z-30 md:text-center md:max-w-[800px] 
+          lg:max-w-[1200px] px-5 md:px-0 py-10 flex flex-col  md:m-auto lg:px-16">
+          <p className="border text-sm border-orange-10 absolute top-10 justify-start  flex md:justify-center md:self-center px-2 rounded-full">We Build To Last</p>
           <h1 className="lg:text-5xl md:text-5xl pt-10 text-3xl">
           From ideation to value <span className=' block font-bold'>Let’s Build Together.</span>
           </h1>
@@ -73,14 +99,15 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className=" mt-20">
+        </div>
+        <div>
           <Image src={heroImg} alt="hero image" />
         </div>
       </section>
 
       {/* about section */}
 
-      <section className=" px-5 lg:px-16 py-24">
+      <section className=" animate__animated animate__slideInLeft  px-5 lg:px-16 py-24">
         <div className=" flex flex-col md:justify-between md:flex-row ">
           <p className=" text-sm md:text-base text-orange-10">How We Work</p>
           <h2 className=" lg:text-5xl md:text-4xl text-2xl font-medium md:w-[70%] leading-snug">

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import aboutImg from '@/public/about-img.png'
+import aboutImg from '@/public/about-us.jpg'
 import team1 from '@/public/team1.png'
 import team2 from '@/public/team2.png'
 import team3 from '@/public/team3.png'
@@ -25,13 +25,13 @@ import docker from '@/public/docker.svg'
 export default function AboutUs() {
   return (
     <main className=" text-base xl:text-lg relative">
-      <section className=" relative">
+      <section className=" relative hero-img">
       <Image
           src={aboutImg}
           alt="contact page background image"
           className=" w-full h-96 object-cover relative"
         />
-        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0  px-5 lg:px-16 py-24 flex flex-col items-center justify-center  text-center">
+        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 z-30  px-5 lg:px-16 py-24 flex flex-col items-center justify-center  text-center">
           <h2 className=" lg:text-5xl md:text-4xl font-medium pt-10 lg:pt-20 leading-normal text-3xl">About Leumax Tech</h2>
           <p className=" capitalize mt-5 max-w-[600px]">
             Leumax Technology is a dedicated team passionate about bridging the

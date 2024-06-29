@@ -33,13 +33,13 @@ export default function IoT() {
 
   return (
     <div className=' text-base xl:text-lg relative'>
-        <section className=" relative">
+        <section className=" relative hero-img">
         <Image
           src={iot}
           alt="iot robotics page background image"
           className="  w-full h-96 object-cover relative"
         />
-        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0  px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
+        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0  z-30 px-5 lg:px-16 py-24 flex flex-col items-center justify-center max-w-[600px] text-center">
           <h2 className=" lg:text-5xl md:text-4xl font-medium leading-normal text-3xl">Ai & Robotics</h2>
           <p className=" capitalize mt-5 max-w-[600px]">
           Robots, IoT and artificial intelligence are 

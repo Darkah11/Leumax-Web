@@ -3,19 +3,20 @@ import React from 'react'
 import uiux from '@/public/ui-ux.png'
 import cloud from '@/public/connection.png'
 import web from '@/public/application.png'
-import contactImg from '@/public/contact-us.png'
+import servicesImg from '@/public/services.jpg'
 import digital from '@/public/digital-marketing.png'
+import 'animate.css';
 
 export default function Services() {
   return (
     <div className=" text-base xl:text-lg relative">
-      <section className=' relative'>
+      <section className='  relative hero-img'>
       <Image
-          src={contactImg}
+          src={servicesImg}
           alt="contact page background image"
           className=" w-full h-96 object-cover relative"
         />
-        <div className=" text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 z-30  px-5 lg:px-16 py-24 flex flex-col items-center justify-center text-center">
+        <div className=" animate__animated animate__slideInLeft text-white-10 absolute left-0 right-0 m-auto top-0 bottom-0 z-30  px-5 lg:px-16 py-24 flex flex-col items-center justify-center text-center">
           <h2 className=" lg:text-5xl md:text-4xl font-medium leading-normal text-3xl">Our Services</h2>
           <p className=" capitalize mt-5 max-w-[600px]">
           From innovative startups to big name corporations, <br />
@@ -26,7 +27,7 @@ export default function Services() {
 
       {/* amazing team */}
 
-      <section className=" px-5 md:px-10 lg:px-16 py-24 bg-white-10">
+      <section className=" animate__animated animate__fadeIn px-5 md:px-10 lg:px-16 py-24 bg-white-10">
       <div className=" flex flex-col md:justify-between md:flex-row ">
           <p className=" text-sm md:text-base text-orange-10">Our Services</p>
           <div className=' md:w-[70%]'>

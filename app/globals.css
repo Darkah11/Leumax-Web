@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.animate__animated {
+  --animate-duration: 2s;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   @apply font-sf
@@ -23,7 +27,7 @@ body {
     @apply  bg-orange-10 lg:px-7 lg:py-3 font-medium px-5 py-2 text-white-10 transition-all hover:opacity-90 border-orange-10 rounded-md
   }
   .btn-orange-outline  { 
-    @apply border-orange-10 text-base lg:text-lg lg:px-8 lg:py-3 text-orange-10 font-medium  bg-transparent px-5 py-2 transition-all hover:border-2 rounded-md
+    @apply border-orange-10 text-base lg:text-lg lg:px-8 lg:py-3 text-orange-10 font-medium  bg-transparent px-5 py-2 transition-all hover:border-opacity-70 hover:text-opacity-70 rounded-md
   }
   .flex-between {
     @apply flex items-center justify-between;
@@ -73,9 +77,12 @@ body {
   box-shadow: 10px 20px 30px rgba(243, 115, 53, 0.1), -10px 20px 20px rgba(243, 115, 53, 0.2);
 }
 
-.services-img::before {
+.hero-img::after {
   content: "";
-  @apply w-full h-full absolute top-0 left-0 bg-black-10 bg-opacity-50 z-10
+  background: #fc4a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(13, 97%, 55%, 0.4), hsla(40, 92%, 58%, 0.4)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(13, 97%, 55%, 0.4), hsla(40, 92%, 58%, 0.4)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  @apply w-full h-full absolute top-0 left-0 bg-opacity-50 z-10
 }
 .mobile-menu-button {
   @apply flex items-center justify-center w-8 h-8 bg-gray-200 hover:bg-gray-300 rounded-full;
@@ -85,6 +92,12 @@ body {
   @apply w-6 h-6 stroke-current;
 }
 
+.price-card {
+  background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fc4a1a, #f7b733 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 /* Mobile menu functionality */
 .mobile-menu-button:checked ~ .mobile-menu {
   @apply block;

@@ -36,33 +36,33 @@ export default function Footer() {
         <div className=' flex gap-20 items-center flex-wrap'>
         <ul className=' flex items-left gap-4 flex-col text-gray-10'>
             <p className=' mb-5 text-white-10 font-medium'>Company</p>
-            <Link href={"/"}>Home</Link>
-            <Link href={"/"}>About us</Link>
-            <Link href={"/"}>Services</Link>
-            <Link href={"/"}>Portfolio</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Home</Link>
+            <Link href={"/about"} className=' hover:text-orange-10 transition-all'>About us</Link>
+            <Link href={"/services"} className=' hover:text-orange-10 transition-all'>Services</Link>
+            <Link href={"/academy"} className=' hover:text-orange-10 transition-all'>Academy</Link>
         </ul>
         <ul className=' flex items-left gap-4 flex-col text-gray-10 '>
-            <p className=' mb-5 text-white-10 font-medium'>Max Academy</p>
-            <Link href={"/"}>Kids2tech</Link>
-            <Link href={"/"}>Tech4japa</Link>
-            <Link href={"/"}>Tech4jobs</Link>
-            <Link href={"/"}>Corps2tech</Link>
+            <p className=' mb-5 text-white-10 font-medium'>Programs</p>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Kids2tech</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Tech4japa</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Tech4jobs</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Corps2tech</Link>
         </ul>
         </div>
         <div className=' flex gap-20 items-center flex-wrap'>
         <ul className=' flex items-left gap-4 flex-col text-gray-10'>
             <p className=' mb-5 text-white-10 font-medium'>Support</p>
-            <Link href={"/"}>FAQs</Link>
-            <Link href={"/"}>Contact</Link>
-            <Link href={"/"}>Term of use</Link>
-            <Link href={"/"}>Cookie policy</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>FAQs</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Contact</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Term of use</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Cookie policy</Link>
         </ul>
         <ul className=' flex items-left gap-4 flex-col text-gray-10'>
             <p className=' mb-5 text-white-10 font-medium'>Media</p>
-            <Link href={"/"}>Twitter</Link>
-            <Link href={"/"}>LinkedIn</Link>
-            <Link href={"/"}>Instagram</Link>
-            <Link href={"/"}>Facebook</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Twitter</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>LinkedIn</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Instagram</Link>
+            <Link href={"/"} className=' hover:text-orange-10 transition-all'>Facebook</Link>
         </ul>
         </div>
 
