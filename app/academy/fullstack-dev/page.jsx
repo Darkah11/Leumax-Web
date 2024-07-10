@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import services from '@/public/services.png'
+import hero from '@/public/academy/full-dev-bg.jpg'
 import clock from '@/public/clock.svg'
 import mark from '@/public/mark.png'
 import QuoteForm from '@/components/QuoteForm'
@@ -10,13 +10,13 @@ export default function FullstackDev() {
     <div className=" text-base lg:text-lg xl:text-xl relative">
       <section className=" relative hero-img">
         <Image
-          src={services}
+          src={hero}
           alt="web development page background image"
           className="w-full h-96 object-cover relative"
         />
         <div className=" text-white-10 px-5 lg:px-16 absolute z-30 left-0 right-0 m-auto top-0 bottom-0 flex flex-col items-center justify-center  text-center">
           <h2 className=" lg:text-5xl md:text-4xl font-medium leading-normal text-3xl">Fullstack Development</h2>
-          <p className=" capitalize mt-5 max-w-[600px]">
+          <p className=" mt-5 max-w-[600px]">
           This course combines skills from both the frontend and the backend courses.
           </p>
         </div>

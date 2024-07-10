@@ -80,9 +80,13 @@ body {
 .hero-img::after {
   content: "";
   background: #fc4a1a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, hsla(13, 97%, 55%, 0.4), hsla(40, 92%, 58%, 0.4)); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsla(13, 97%, 55%, 0.4), hsla(40, 92%, 58%, 0.4)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, hsla(13, 97%, 55%, 0.7), hsla(40, 92%, 58%, 0.7)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(13, 97%, 55%, 0.7), hsla(40, 92%, 58%, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   @apply w-full h-full absolute top-0 left-0 bg-opacity-50 z-10
+}
+.more-card::after {
+  content: "";
+  @apply w-full h-full absolute top-0 left-0 bg-opacity-50 z-10 bg-black-10 
 }
 .mobile-menu-button {
   @apply flex items-center justify-center w-8 h-8 bg-gray-200 hover:bg-gray-300 rounded-full;
@@ -109,4 +113,14 @@ background: linear-gradient(to right, #fc4a1a, #f7b733 ); /* W3C, IE 10+/ Edge, 
 
 .mobile-menu a {
   @apply block p-4 text-sm text-gray-600 hover:text-gray-900;
+}
+
+div.slide {
+  display: none;
+}
+div.activeSlide {
+  display: block;
+}
+div.nextSlide {
+  
 }

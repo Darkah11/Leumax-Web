@@ -3,8 +3,7 @@ import React from "react";
 import {Accordion, AccordionItem} from "@nextui-org/accordion";
 import Link from "next/link";
 export default function Faq({ data, style, link, icon}) {
-    const text = 'hello\nworld'
-  console.log(text);
+
   
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import iot from '@/public/iot.png'
+import iot from '@/public/robotics-bg.jpg'
 import ai from '@/public/ai.png'
 import Button from '@/components/Button'
 import Faq from '@/components/Faq'

@@ -1,26 +1,18 @@
 
 import React from 'react'
 import Image from 'next/image'
-import services from '@/public/services.png'
+import hero from '@/public/academy/data-science-bg.jpg'
 import clock from '@/public/clock.svg'
 import mark from '@/public/mark.png'
 import QuoteForm from '@/components/QuoteForm'
 
 export default function DataScience() {
 
-  const options = [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
-    "Redux",
-];
-
   return (
     <div className=" text-base lg:text-lg xl:text-xl relative">
       <section className=" relative hero-img">
         <Image
-          src={services}
+          src={hero}
           alt="web development page background image"
           className="w-full h-96 object-cover relative"
         />

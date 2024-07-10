@@ -28,7 +28,7 @@ export default function Navbar() {
             width={200}
             height={50}
             alt="leumax log"
-            className=" w-[150px]"
+            className=" w-[100px] lg:w-[150px]"
           />
         </Link>
 
@@ -52,6 +52,7 @@ export default function Navbar() {
               }
             >
               Home
+              
             </Link>
           </li>
           <li>

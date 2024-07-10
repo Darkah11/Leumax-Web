@@ -14,11 +14,13 @@ export default function Footer() {
           <br />
           Let’s Work Together
         </h2>
-        <Button
-          title={'Request Quote'}
-          variant={'btn-orange'}
-          type={'button'}
-        />
+        <Link href={'/contact'}>
+            <Button
+              title={'Request Quote'}
+              variant={'btn-orange'}
+              type={'button'}
+            />
+            </Link>
       </div>
 
       <div className=' border-y py-10 flex items-start flex-wrap gap-20'>

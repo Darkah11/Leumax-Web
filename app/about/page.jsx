@@ -12,17 +12,55 @@ import support from '@/public/support.png'
 import target from '@/public/target.png'
 import twitter from '@/public/twitter.svg'
 import linkedin from '@/public/linkedin.svg'
-import avatar from '@/public/avatar.svg'
-import left from '@/public/arrow-left.svg'
-import right from '@/public/arrow-right.svg'
+
+
 import node from '@/public/node-js.svg'
 import python from '@/public/python.svg'
 import js from '@/public/js.svg'
 import php from '@/public/php.svg'
 import mailchimp from '@/public/mailchimp.svg'
 import docker from '@/public/docker.svg'
+import Testimonial from '@/components/Testimonial'
 
 export default function AboutUs() {
+
+  const testimonials = [
+    {
+      id: 1,
+      name: "Emmanuel Lawani",
+      role: "client",
+      body: "Great company to be trained on basic and advanced tech skills. Leumax has a great facility that helps to aid comprehension.",
+      male: true
+    },
+    {
+      id: 2,
+      name: "Temilola Tolulope Oyenuga",
+      role: "Employee",
+      body: "I recently had the pleasure of working with Leumax Technology, and I must say their service and expertise exceeded my expectations. From the initial consultation to the final implementation, the team at Leumax demonstrated professionalism, proficiency, and a genuine commitment to delivering top-notch solutions.",
+      female: true
+    },
+    {
+      id: 3,
+      name: "Nimfa Daniel",
+      role: "Client",
+      body: "I am thrilled to realized that Leumax Technology and Max Academy is one of the world best innovation founded by a computer guru with aim to regulate and promote first class technology to reflect modern digitalization to enhance personal values through effective skills acquisition to help in controlling and managing the increasing rate of unemployment in the global community to encourage job stability and self reliance. ",
+      male: true
+    },
+    {
+      id: 4,
+      name: "Uduma Sharon",
+      role: "Student, Leumax Academy",
+      body: " I recently had the opportunity to enroll in Max Academy's tech training program, and I must say, it exceeded my expectations in every way possible.From the moment I stepped into their modern and dynamic learning environment, I knew I was in for something special. The instructors at Max Academy are not only highly knowledgeable in their respective fields but also incredibly passionate about sharing their expertise with students.",
+      female: true
+    },
+    {
+      id: 5,
+      name: "Adedayo Olamide",
+      role: "Student, Leumax Academy",
+      body: "At Leumax Technology & Max Academy! The learning environment is top-notch and a great place to learn everything about tech. The knowledgeable instructors made grasping tech concepts engaging, enjoyable, and easy. It's truly a fantastic place to delve into everything about tech. Highly recommend!",
+      female: true
+    },
+  ]
   return (
     <main className=" text-base xl:text-lg relative">
       <section className=" relative hero-img">
@@ -144,102 +182,6 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* amazing team */}
-
-      <section className=" px-5 lg:px-16 py-24">
-        <div className=' max-w-[500px] m-auto text-center '>
-            <h2 className=' lg:text-5xl md:text-4xl text-2xl font-medium leading-snug'>The Amazing Team</h2>
-            <p>We are a group of builders and operators with extensive 
-firsthand expertise in this field.</p>
-        </div>
-        <div className=' flex justify-center md:justify-between lg:gap-x-0 items center flex-wrap gap-y-10 mt-12'>
-            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
-            <Image src={team1} alt="our team member's image" className=' w-full'/>
-            <div className=' absolute bottom-8 left-0 right-0 m-auto 
-            w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
-                <div className=' text-white-10 '>
-                    <p className=' text-lg font-semibold'>Adetogun Sam</p>
-                    <p className=' text-sm'> Founder, Leumax Tech</p>
-                </div>
-                <div className=' flex items-center gap-4'>
-                    <Image src={twitter} alt='twitter logo'/>
-                    <Image src={linkedin} alt='linkedin logo'/>
-                </div>
-            </div>
-            </div>
-            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
-            <Image src={team2} alt="our team member's image" className=' w-full'/>
-            <div className=' absolute bottom-8 left-0 right-0 m-auto 
-            w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
-                <div className=' text-white-10 '>
-                    <p className=' text-lg font-semibold'>Adetogun Sam</p>
-                    <p className=' text-sm'> Founder, Leumax Tech</p>
-                </div>
-                <div className=' flex items-center gap-4'>
-                    <Image src={twitter} alt='twitter logo'/>
-                    <Image src={linkedin} alt='linkedin logo'/>
-                </div>
-            </div>
-            </div>
-            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
-            <Image src={team3} alt="our team member's image" className=' w-full'/>
-            <div className=' absolute bottom-8 left-0 right-0 m-auto 
-            w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
-                <div className=' text-white-10 '>
-                    <p className=' text-lg font-semibold'>Adetogun Sam</p>
-                    <p className=' text-sm'> Founder, Leumax Tech</p>
-                </div>
-                <div className=' flex items-center gap-4'>
-                    <Image src={twitter} alt='twitter logo'/>
-                    <Image src={linkedin} alt='linkedin logo'/>
-                </div>
-            </div>
-            </div>
-            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
-            <Image src={team4} alt="our team member's image" className=' w-full'/>
-            <div className=' absolute bottom-8 left-0 right-0 m-auto 
-            w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
-                <div className=' text-white-10 '>
-                    <p className=' text-lg font-semibold'>Adetogun Sam</p>
-                    <p className=' text-sm'> Founder, Leumax Tech</p>
-                </div>
-                <div className=' flex items-center gap-4'>
-                    <Image src={twitter} alt='twitter logo'/>
-                    <Image src={linkedin} alt='linkedin logo'/>
-                </div>
-            </div>
-            </div>
-            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
-            <Image src={team5} alt="our team member's image" className=' w-full'/>
-            <div className=' absolute bottom-8 left-0 right-0 m-auto 
-            w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
-                <div className=' text-white-10 '>
-                    <p className=' text-lg font-semibold'>Adetogun Sam</p>
-                    <p className=' text-sm'> Founder, Leumax Tech</p>
-                </div>
-                <div className=' flex items-center gap-4'>
-                    <Image src={twitter} alt='twitter logo'/>
-                    <Image src={linkedin} alt='linkedin logo'/>
-                </div>
-            </div>
-            </div>
-            <div className=' relative w-[500px] md:max-w-[48%] lg:max-w-[31%]'>
-            <Image src={team6} alt="our team member's image" className=' w-full'/>
-            <div className=' absolute bottom-8 left-0 right-0 m-auto 
-            w-[90%] flex items-center justify-between bg-black-10 bg-opacity-70 px-4 py-2 border border-darkgray-10'>
-                <div className=' text-white-10 '>
-                    <p className=' text-lg font-semibold'>Adetogun Sam</p>
-                    <p className=' text-sm'> Founder, Leumax Tech</p>
-                </div>
-                <div className=' flex items-center gap-4'>
-                    <Image src={twitter} alt='twitter logo'/>
-                    <Image src={linkedin} alt='linkedin logo'/>
-                </div>
-            </div>
-            </div>
-        </div>
-      </section>
-
       {/* testimonials */}
 
       <section className=' px-5 lg:px-16 py-24'>
@@ -248,7 +190,8 @@ firsthand expertise in this field.</p>
             <h2 className=' lg:text-5xl md:text-4xl text-2xl font-medium leading-snug capitalize pt-8'>Amplifying the contentment expressed by our client</h2>
         </div>
         <div className=' pt-20 md:w-[70%] md:pr-5 md:ml-auto'>
-          <div className=' flex flex-col gap-10 items-start border-l border-l-orange-10 px-8 lg:px-16 max-w-[800px]'>
+          <Testimonial data={testimonials} />
+          {/* <div className=' flex flex-col gap-10 items-start border-l border-l-orange-10 px-8 lg:px-16 max-w-[800px]'>
             <p>We have years of experience and hands-on you can bank on. We develop Solutions and Tools to ease your business processes via the web. We also train and support our </p>
             <div className=' flex items-center gap-8'>
               <Image src={avatar} alt='avatar image' width={60} height={60}/>
@@ -261,7 +204,7 @@ firsthand expertise in this field.</p>
           <div className=' flex justify-between items-center pt-20'>
             <Image src={left} alt='left arrow' width={30} height={30}/>
             <Image src={right} alt='right arrow' width={30} height={30}/>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>
