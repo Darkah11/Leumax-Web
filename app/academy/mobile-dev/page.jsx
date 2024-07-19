@@ -37,14 +37,14 @@ export default function MobileDev() {
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
             <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>JavaScript HTML5, CSS3 ,BOOTSTRAP5</h4>
                         <span className=' text-darkgray-10 text-sm'>JavaScript Fundamentals and Modern JavaScript concepts.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Understanding React</h4>
                         <span className=' text-darkgray-10 text-sm'>JSX, hooks, Elements, components, User Inputs, events, conditional
@@ -52,21 +52,21 @@ export default function MobileDev() {
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Mobile Development with React Native</h4>
                         <span className=' text-darkgray-10 text-sm'>React Native Workflow, Expo, Core components, Styling, Layout.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Advanced Mobile Development with React Native</h4>
                         <span className=' text-darkgray-10 text-sm'>Navigation, Native Features, Networking, Notifications, Testing, debugging. </span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Projects & Career Support</h4>
                         <span className=' text-darkgray-10 text-sm'>Personal project. Inter-track project. Client Project. Career profile review.</span>
@@ -89,7 +89,7 @@ export default function MobileDev() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Mobile Development"} />
         </div>
       </section>
     </div>

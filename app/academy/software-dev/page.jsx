@@ -38,31 +38,31 @@ export default function SoftwareDevelopment() {
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
               <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Nodejs</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>JavaScript</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Git</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>SQL</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>MongoDB</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Docker</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Postman</h4>
                   </li>
               </ul>
@@ -82,7 +82,7 @@ export default function SoftwareDevelopment() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Software Development"}/>
         </div>
       </section>
     </div>

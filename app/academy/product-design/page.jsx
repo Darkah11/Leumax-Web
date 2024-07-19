@@ -38,23 +38,23 @@ export default function ProductDesign() {
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
               <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Design-Thinking, Research & Insights</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>User Experience(UX) Design</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>User Interface(UI) Design</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Wireframes To High-Fidelity Prototypes</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Handoff and Documentation</h4>
                   </li>
               </ul>
@@ -74,7 +74,7 @@ export default function ProductDesign() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Product Design"}/>
         </div>
       </section>
     </div>

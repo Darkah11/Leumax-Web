@@ -44,27 +44,27 @@ export default function CyberSecurity() {
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
               <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Metasploit framework</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Kail Linux Os</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Parrot OS</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Nmap</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Firewalls</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Wireshark</h4>
                   </li>
               </ul>
@@ -84,7 +84,7 @@ export default function CyberSecurity() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Cyber Security"} />
         </div>
       </section>
     </div>

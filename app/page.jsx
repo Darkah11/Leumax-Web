@@ -1,8 +1,15 @@
 import Button from '@/components/Button'
 import Image from 'next/image'
 import heroImg from '@/public/hero-img.png'
-import lady from '@/public/lady.png'
-import man from '@/public/man.png'
+import one from '@/public/leumax/one.JPG'
+import two from '@/public/leumax/two.jpg'
+import three from '@/public/leumax/three.JPG'
+import four from '@/public/leumax/four.JPG'
+import five from '@/public/leumax/five.JPG'
+import six from '@/public/leumax/six.JPG'
+import seven from '@/public/leumax/seven.JPG'
+import eight from '@/public/leumax/eight.JPG'
+import nine from '@/public/leumax/nine.JPG'
 import landing from '@/public/landing.png'
 import ux from '@/public/ux.png'
 import it from '@/public/it-solutions.png'
@@ -177,17 +184,17 @@ export default function Home() {
 
       <section className=" px-5 lg:px-16 py-24">
         <div className=" flex flex-col md:justify-between md:flex-row ">
-          <p className=" text-sm md:text-base text-orange-10">Max Academy</p>
+          <p className=" text-sm md:text-base text-orange-10">Leumax Academy</p>
           <div className="md:w-[70%]">
             <h2 className=" lg:text-5xl md:text-4xl text-2xl font-medium leading-snug">
               Leumax Academy, an integral part of Leumax Technology
             </h2>
             <p className="py-5">
-              is a dynamic learning hub committed to providing cutting-edge
+              Leumax Academy is a dynamic learning hub committed to providing cutting-edge
               computer courses, equipping students with the skills and knowledge
               needed to excel
             </p>
-            <Link href={'/contact'}>
+            <Link href={'/academy'}>
             <Button
               title={'Explore Courses'}
               variant={'btn-orange-outline'}
@@ -196,17 +203,53 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className=" flex flex-col md:flex-row md:justify-between md:items-center gap-y-5 mt-20 w-full">
+        <div className=" flex flex-wrap flex-col md:flex-row md:justify-between md:items-center gap-y-5 md:gap-y-12 mt-20 w-full">
           <Image
-            src={lady}
+            src={one}
             alt="academy section image"
-            className=" h-[450px] object-cover w-full md:w-[29%]"
+            className=" object-cover w-full md:w-[31%] rounded-xl"
+          />
+           <Image
+            src={eight}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl md:-mb-[80px]"
           />
           <Image
-            src={man}
-            alt="academy section image "
-            className=" h-[450px] object-cover w-full md:w-[69%]"
+            src={nine}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl md:-mb-[160px]"
           />
+          <Image
+            src={two}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl"
+          />
+          <Image
+            src={three}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl md:-mb-[80px]"
+          />
+          <Image
+            src={four}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl md:-mb-[160px]"
+          />
+          <Image
+            src={five}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl"
+          />
+          <Image
+            src={six}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl md:-mb-[80px]"
+          />
+          <Image
+            src={seven}
+            alt="academy section image"
+            className=" object-cover w-full md:w-[31%] rounded-xl md:-mb-[160px]"
+          />
+         
         </div>
       </section>
 

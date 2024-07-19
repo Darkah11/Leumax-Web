@@ -97,7 +97,7 @@ export default function Corps2Tech() {
                   </li>
             </ul>
         </div>
-        <ProgramForm courses={courses} price={"N250,000.00"}/>
+        <ProgramForm courses={courses} price={"N250,000.00"} program={"Corps2Tech"}/>
       </section>
 
       <section className=" px-5 lg:px-16 py-24">

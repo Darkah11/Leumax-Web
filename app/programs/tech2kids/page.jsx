@@ -59,7 +59,7 @@ export default function Tech2Kids() {
                   </li>
             </ul>
         </div>
-        <ProgramForm courses={false} price={"N100,000.00"} />
+        <ProgramForm courses={false} price={"N100,000.00"} program={"Tech2Kids"}/>
       </section>
 
       <section className=" px-5 lg:px-16 py-24">

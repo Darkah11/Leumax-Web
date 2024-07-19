@@ -38,35 +38,35 @@ export default function FrontendDev() {
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
             <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>JavaScript: HTML5, CSS3, BOOTSTRAP 5</h4>
                         <span className=' text-darkgray-10 text-sm'>Arrays. Objects. Functions. Higher Order Functions. DOM. Events. External API calls. OOP. Promises. Testing.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Practice Of Software Engineering</h4>
                         <span className=' text-darkgray-10 text-sm'>Application Design & Architecture. Testing. Monitoring. Automating. Code Quality. Development methodologies.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Introduction to React Js</h4>
                         <span className=' text-darkgray-10 text-sm'>React 16 vs React 15. Just React. Debugging. JSX In React.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Frontend Framework</h4>
                         <span className=' text-darkgray-10 text-sm'>Modules and Components (React & Redux). Unit Testing. Webpack Primer. Isomorphic React</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Projects & Career Support</h4>
                         <span className=' text-darkgray-10 text-sm'>Personal project. Inter-track project. Client Project. Career profile review.</span>
@@ -89,7 +89,7 @@ export default function FrontendDev() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Frontend Development"} />
         </div>
       </section>
     </div>

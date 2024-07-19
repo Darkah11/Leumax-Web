@@ -99,7 +99,7 @@ export default function Tech2jobs() {
             </ul>
         </div>
         
-        <ProgramForm courses={courses} price={"N250,000.00"}/>
+        <ProgramForm courses={courses} price={"N250,000.00"} program={"Tech2Jobs"}/>
       </section>
 
       <section className=" px-5 lg:px-16 py-24">

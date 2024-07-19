@@ -118,8 +118,9 @@ export default function Navbar() {
           <li>
             <Link
               href={'/academy'}
+              // || '/academy/tech4japa' || '/academy/tech2jobs' || '/academy/corps2tech' || '/academy/tech2kids'
               className={
-                linkActive == '/academy'
+                linkActive == '/academy' 
                   ? ' text-orange-10'
                   : ' hover:text-orange-10 transition-all'
               }
@@ -129,11 +130,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <Link href={'/contact'} className={
-                linkActive == '/contact'
-                  ? ' text-orange-10'
-                  : ' hover:text-orange-10 transition-all hidden md:block'
-              }>
+        <Link href={'/contact'} className="hidden md:block">
           <Button
             type={'button'}
             title={'Contact us'}

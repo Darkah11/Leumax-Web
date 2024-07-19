@@ -34,42 +34,31 @@ export default function DigitalMarketing() {
             </p>
           </div>
 
-          
-
-
-
-
-
-
-
-
-
-
           <div className=' pt-10'>
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
               <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>SEO</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>SEM</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Social Media</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Phone Marketing</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Email Marketing</h4>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Content Marketing (Videos, Graphic)</h4>
                   </li>
               </ul>
@@ -89,7 +78,7 @@ export default function DigitalMarketing() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Digital Marketing"} />
         </div>
       </section>
     </div>

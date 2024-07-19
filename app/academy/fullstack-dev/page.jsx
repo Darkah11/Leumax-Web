@@ -37,70 +37,70 @@ export default function FullstackDev() {
             <h3 className=' font-medium text-xl border-b pb-2'>Courses</h3>
             <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>JavaScript: HTML5, CSS3, BOOTSTRAP 5</h4>
                         <span className=' text-darkgray-10 text-sm'>Arrays. Objects. Functions. Higher Order Functions. DOM. Events. External API calls. OOP. Promises. Testing.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Practice Of Software Engineering</h4>
                         <span className=' text-darkgray-10 text-sm'>Application Design & Architecture. Testing. Monitoring. Automating. Code Quality. Development methodologies.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Introduction to React Js</h4>
                         <span className=' text-darkgray-10 text-sm'>React 16 vs React 15. Just React. Debugging. JSX In React.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Frontend Framework</h4>
                         <span className=' text-darkgray-10 text-sm'>Modules and Components (React & Redux). Unit Testing. Webpack Primer. Isomorphic React</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Web APIs and Asynchronous Applications</h4>
                         <span className=' text-darkgray-10 text-sm'>HTTP Request and Routes, Asynchronous Javascript.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Object Oriented JavaScript</h4>
                         <span className=' text-darkgray-10 text-sm'>Objects in Depth, Functions at Runtime, Classes and Objects, Object Oriented Design Patterns.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Backend Development with Node.js</h4>
                         <span className=' text-darkgray-10 text-sm'>Getting started with Node.js, Developing with Typescript, Unit testing with Jasmine, Building a Server.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Creating an API with with PostgreSQL/MongoDB and Express</h4>
                         <span className=' text-darkgray-10 text-sm'>Databases and SQL, Creating an API with Postgres connection, Creating an API with Express, Authentication and Authorization, SQL for advanced API functionality, MongoDB and Mongoose ODM</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Deployment Process</h4>
                         <span className=' text-darkgray-10 text-sm'>Setting up a Production Environment, Interact with Cloud Services, Write Scripts for Web Application, Configure and document a pipeline, deploy backends with Heroku.</span>
                       </div>
                   </li>
                   <li className=' flex items-start gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <div>
                         <h4 className=' font-medium'>Projects & Career Support</h4>
                         <span className=' text-darkgray-10 text-sm'>Personal project. Inter-track project. Client Project. Career profile review.</span>
@@ -126,7 +126,7 @@ export default function FullstackDev() {
         </div>
         
 
-          <QuoteForm />
+          <QuoteForm course={"Fullstack Development"} />
         </div>
       </section>
     </div>

@@ -39,27 +39,27 @@ export default function DataScience() {
             <h3 className=' font-medium text-2xl border-b pb-2'>Courses</h3>
               <ul className=' flex flex-col gap-y-3 mt-4'>
                   <li className=' flex items-center gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>SQL</h4>
                   </li>
                   <li className=' flex items-center gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Python and NumPy</h4>
                   </li>
                   <li className=' flex items-center gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Statistics</h4>
                   </li>
                   <li className=' flex items-center gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Pandas(Data Manipulation, Analysis) and Visualization</h4>
                   </li>
                   <li className=' flex items-center gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Machine Learning</h4>
                   </li>
                   <li className=' flex items-center gap-x-3'>
-                      <Image src={mark} alt='a mark image'/>
+                      <Image src={mark} alt='a mark image' className=' w-[20px] h-[20px]'/>
                       <h4 className=' font-medium'>Code Testing, Model Validation And Web Scraping</h4>
                   </li>
               </ul>
@@ -79,7 +79,7 @@ export default function DataScience() {
         </div>
         
 
-          <QuoteForm  />
+          <QuoteForm course={"Data Science"}  />
         </div>
       </section>
     </div>
